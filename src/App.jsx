@@ -7,6 +7,11 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Careers from './pages/Careers';
 import Blog from './pages/Blog';
+import BlogDetail from './pages/BlogDetail';
+import Testimonials from './pages/Testimonials';
+import News from './pages/News';
+import ThankYou from './pages/ThankYou';
+import NotFound from './pages/NotFound';
 import './index.css';
 
 function App() {
@@ -22,7 +27,11 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/careers" element={<Careers />} />
             <Route path="/blog" element={<Blog />} />
-            {/* Will add NotFound if url does not match */}
+            <Route path="/blog/:slug" element={<BlogDetail />} />
+            <Route path="/testimonials" element={<Testimonials />} />
+            <Route path="/news" element={<News />} />
+            <Route path="/thank-you" element={<ThankYou />} />
+            <Route path="*" element={<NotFound />} />
           </Routes>
         </main>
         <Footer />
