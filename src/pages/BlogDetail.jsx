@@ -1,4 +1,4 @@
-import { Calendar, User, ArrowLeft, Clock, Tag } from 'lucide-react';
+import { Calendar, ArrowLeft, Clock, Tag } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import './BlogDetail.css';
 
