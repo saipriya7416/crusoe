@@ -97,14 +97,14 @@ const news = [
 const categories = ["All", "Tech", "Company Updates", "Events"];
 
 const typeColors = {
-  "Press Release": "#14B8A6",
-  "Partnership": "#3B82F6",
-  "Award": "#F59E0B",
-  "Product Launch": "#8B5CF6",
-  "Community": "#EC4899",
-  "Event": "#06B6D4",
-  "Research": "#10B981",
-  "Milestone": "#F97316"
+  "Press Release": "#006E23",
+  "Partnership": "#1D4ED8",
+  "Award": "#B45309",
+  "Product Launch": "#6D28D9",
+  "Community": "#BE185D",
+  "Event": "#065F46",
+  "Research": "#065F46",
+  "Milestone": "#C2410C"
 };
 
 const ITEMS_PER_PAGE = 4;

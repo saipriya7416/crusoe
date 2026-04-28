@@ -85,7 +85,7 @@ export default function BlogDetail() {
           <div className="sidebar-card glass">
             <h3>About the Author</h3>
             <div className="sidebar-author">
-              <div className="author-avatar-lg" style={{ background: '#14B8A6' }}>M</div>
+              <div className="author-avatar-lg" style={{ background: '#006E23' }}>M</div>
               <div>
                 <strong>Marcus Chen</strong>
                 <p>CTO at Crusoe Technologies, systems architect, and distributed systems enthusiast.</p>

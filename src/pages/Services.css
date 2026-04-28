@@ -39,14 +39,14 @@
 
 .detailed-service-card:hover {
   transform: translateY(-8px);
-  box-shadow: 0 20px 40px -10px rgba(0,0,0,0.5), 0 0 30px var(--color-primary-glow);
-  border-color: rgba(20, 184, 166, 0.4);
+  box-shadow: 0 20px 40px -10px rgba(0,0,0,0.1), 0 0 30px var(--color-primary-glow);
+  border-color: rgba(0, 110, 35, 0.3);
 }
 
 .service-icon-3d {
   width: 80px;
   height: 80px;
-  background: linear-gradient(135deg, rgba(20, 184, 166, 0.15), rgba(3, 105, 161, 0.15));
+  background: linear-gradient(135deg, rgba(0, 110, 35, 0.1), rgba(0, 61, 23, 0.1));
   border-radius: var(--radius-lg);
   display: flex;
   align-items: center;
@@ -55,9 +55,9 @@
   margin-bottom: var(--space-6);
   position: relative;
   transform: perspective(500px) rotateY(-15deg);
-  box-shadow: 10px 10px 20px rgba(0,0,0,0.3);
+  box-shadow: 10px 10px 20px rgba(0,0,0,0.1);
   transition: transform var(--transition-bounce);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(0, 110, 35, 0.15);
 }
 
 .detailed-service-card:hover .service-icon-3d {
@@ -123,7 +123,8 @@
   padding: var(--space-12);
   text-align: center;
   border-radius: var(--radius-xl);
-  background: linear-gradient(to right, rgba(11, 26, 43, 0.8), rgba(19, 39, 61, 0.8));
+  background: linear-gradient(to right, rgba(232, 245, 236, 0.9), rgba(245, 255, 248, 0.95));
+  border: 1px solid rgba(0, 110, 35, 0.15);
 }
 
 @media (max-width: 768px) {
