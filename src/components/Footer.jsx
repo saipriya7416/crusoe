@@ -47,11 +47,12 @@ export default function Footer() {
             <div className="footer-column">
               <h4 className="footer-heading">Company</h4>
               <Link to="/about">About Us</Link>
-              <Link to="/careers">Careers</Link>
+              <Link to="/testimonials">Testimonials</Link>
               <Link to="/news">News</Link>
+              <Link to="/careers">Careers</Link>
               <Link to="/contact">Contact</Link>
             </div>
-            
+
             <div className="footer-column">
               <h4 className="footer-heading">Services</h4>
               <Link to="/services">Software Development</Link>
@@ -59,12 +60,14 @@ export default function Footer() {
               <Link to="/services">UI/UX Design</Link>
               <Link to="/services">Data Engineering</Link>
             </div>
-            
+
             <div className="footer-column">
-              <h4 className="footer-heading">Legal</h4>
+              <h4 className="footer-heading">Resources</h4>
+              <Link to="/blog">Blog</Link>
+              <Link to="/blog/how-we-migrated">Case Studies</Link>
+              <Link to="#">Documentation</Link>
               <Link to="#">Privacy Policy</Link>
               <Link to="#">Terms of Service</Link>
-              <Link to="#">Cookie Policy</Link>
             </div>
           </div>
         </div>
