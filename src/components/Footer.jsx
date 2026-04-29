@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Hexagon } from 'lucide-react';
+import crusoeLogo from '../assets/crusoe-logo.svg';
 
 const Twitter = ({ size = 24 }) => (
   <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -30,8 +30,7 @@ export default function Footer() {
         <div className="footer-top">
           <div className="footer-brand">
             <Link to="/" className="logo">
-              <Hexagon className="logo-icon" size={28} />
-              <span className="logo-text">Crusoe</span>
+              <img className="logo-img" src={crusoeLogo} alt="Crusoe Logo" height="28" />
             </Link>
             <p className="footer-desc">
               Building next-generation software services with premium design, cutting-edge technology, and unparalleled performance.

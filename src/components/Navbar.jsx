@@ -1,6 +1,7 @@
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, Hexagon, ChevronDown } from 'lucide-react';
+import { Menu, X, ChevronDown } from 'lucide-react';
 import { useState, useEffect, useRef } from 'react';
+import crusoeLogo from '../assets/crusoe-logo.svg';
 import './Navbar.css';
 
 export default function Navbar() {
@@ -36,8 +37,7 @@ export default function Navbar() {
     <header className={`navbar ${isScrolled ? 'scrolled' : ''}`}>
       <div className="container navbar-container">
         <Link to="/" className="logo">
-          <Hexagon className="logo-icon" size={28} />
-          <span className="logo-text">Crusoe</span>
+          <img className="logo-img" src={crusoeLogo} alt="Crusoe Logo" height="28" />
         </Link>
 
         <nav className={`nav-links ${mobileMenuOpen ? 'active' : ''}`}>
