@@ -10,7 +10,7 @@ const testimonials = [
     rating: 5,
     text: "Crusoe Technologies transformed our legacy systems into a modern powerhouse. Their team delivered a UI that exceeded all our expectations — pixel-perfect and blazing fast. Absolute perfection from start to finish.",
     avatar: "A",
-    gradient: "linear-gradient(135deg, #006E23, #1FAF5A)"
+    gradient: "#84BD00"
   },
   {
     name: "Priya Sharma",
@@ -19,7 +19,7 @@ const testimonials = [
     rating: 5,
     text: "Working with Crusoe was a revelation. Their cloud architecture expertise cut our infrastructure costs by 40% while tripling our reliability. We've never looked back. Genuinely the best tech partner we've ever had.",
     avatar: "P",
-    gradient: "linear-gradient(135deg, #1FAF5A, #003D17)"
+    gradient: "#84BD00"
   },
   {
     name: "Marcus Elliot",
@@ -28,7 +28,7 @@ const testimonials = [
     rating: 5,
     text: "The data pipeline Crusoe engineered processes 2 billion events per day without breaking a sweat. Their team's depth of knowledge is unmatched. We went from prototype to production in just 3 months.",
     avatar: "M",
-    gradient: "linear-gradient(135deg, #065F46, #064E3B)"
+    gradient: "#84BD00"
   },
   {
     name: "Yuki Tanaka",
@@ -37,7 +37,7 @@ const testimonials = [
     rating: 5,
     text: "I've worked with many vendors, but Crusoe operates at a completely different level of professionalism. Their code is clean, extensively documented, and architected to scale. Highly recommended.",
     avatar: "Y",
-    gradient: "linear-gradient(135deg, #1FAF5A, #065F46)"
+    gradient: "#84BD00"
   },
   {
     name: "Camille Dubois",
@@ -46,7 +46,7 @@ const testimonials = [
     rating: 5,
     text: "The UI/UX work Crusoe delivered rivals the best in Silicon Valley. Our user retention jumped 60% post-launch. They have a rare ability to combine stunning aesthetics with rock-solid engineering.",
     avatar: "C",
-    gradient: "linear-gradient(135deg, #006E23, #065F46)"
+    gradient: "#84BD00"
   },
   {
     name: "Raj Patel",
@@ -55,7 +55,7 @@ const testimonials = [
     rating: 5,
     text: "From day one, Crusoe demonstrated an extraordinary ability to understand our complex requirements and translate them into elegant solutions. The platform they built handles millions of transactions seamlessly.",
     avatar: "R",
-    gradient: "linear-gradient(135deg, #006E23, #12A84E)"
+    gradient: "#84BD00"
   }
 ];
 
@@ -122,7 +122,7 @@ export default function Testimonials() {
       {/* Hero Header */}
       <div className="container page-header center animate-fade-up">
         <div className="testi-badge">
-          <Star size={14} fill="#006E23" color="#006E23" />
+          <Star size={14} fill="#84BD00" color="#84BD00" />
           <span>Trusted by 200+ Companies Worldwide</span>
         </div>
         <h1 className="page-title text-gradient">What Our Clients Say</h1>
@@ -164,7 +164,7 @@ export default function Testimonials() {
               "Crusoe didn't just build software for us — they reimagined how our entire organization operates. The ROI was visible within the first quarter."
             </p>
             <div className="video-author">
-              <div className="video-avatar" style={{ background: 'linear-gradient(135deg, #006E23, #1FAF5A)' }}>AV</div>
+              <div className="video-avatar" style={{ background: '#84BD00' }}>AV</div>
               <div>
                 <h4>Alexander V.</h4>
                 <span>CTO, Finova Finance</span>
@@ -196,7 +196,7 @@ export default function Testimonials() {
             <div className="carousel-body" key={active}>
               <div className="carousel-rating">
                 {Array(t.rating).fill(0).map((_, i) => (
-                  <Star key={i} size={20} fill="#006E23" color="#006E23" />
+                  <Star key={i} size={20} fill="#84BD00" color="#84BD00" />
                 ))}
               </div>
               <blockquote className="carousel-quote">"{t.text}"</blockquote>
@@ -247,7 +247,7 @@ export default function Testimonials() {
               <div className="testi-card-header">
                 <div className="testi-stars">
                   {Array(item.rating).fill(0).map((_, j) => (
-                    <Star key={j} size={14} fill="#006E23" color="#006E23" />
+                    <Star key={j} size={14} fill="#84BD00" color="#84BD00" />
                   ))}
                 </div>
                 <Quote size={24} className="testi-quote-icon" />

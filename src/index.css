@@ -1,21 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
 
 :root {
-  /* ── Forest Green Brand Palette ── */
-  --color-bg: #F5FFF8;
-  --color-bg-secondary: #E8F5EC;
-  --color-bg-tertiary: #003D17;
-  --color-text: #0A0A0A;
-  --color-text-muted: #4F4F4F;
-  --color-primary: #006E23;
-  --color-primary-hover: #1FAF5A;
-  --color-primary-glow: rgba(0, 110, 35, 0.25);
+  /* ── Corporate Brand Palette ── */
+  --color-bg: #FFFFFF;
+  --color-bg-secondary: #F5F7F6;
+  --color-bg-tertiary: #FFFFFF;
+  --color-text: #333333;
+  --color-text-muted: #666666;
+  --color-primary: #84BD00;
+  --color-primary-hover: #73A500;
+  --color-primary-glow: rgba(132, 189, 0, 0.25);
 
-  --color-border: rgba(0, 110, 35, 0.15);
-  --color-border-hover: rgba(0, 110, 35, 0.35);
+  --color-border: #EAEAEA;
+  --color-border-hover: #D0D0D0;
 
-  --color-glass-bg: rgba(245, 255, 248, 0.65);
-  --color-glass-border: rgba(0, 110, 35, 0.12);
+  --color-glass-bg: rgba(255, 255, 255, 0.65);
+  --color-glass-border: rgba(234, 234, 234, 0.5);
 
   /* Spacing */
   --space-1: 4px;
@@ -37,8 +37,8 @@
 
   /* Shadows */
   --shadow-sm: 0 4px 6px -1px rgba(0, 0, 0, 0.06);
-  --shadow-md: 0 8px 24px -4px rgba(0, 110, 35, 0.12);
-  --shadow-lg: 0 20px 40px -8px rgba(0, 110, 35, 0.15);
+  --shadow-md: 0 8px 24px -4px rgba(132, 189, 0, 0.12);
+  --shadow-lg: 0 20px 40px -8px rgba(132, 189, 0, 0.15);
   --shadow-glow: 0 0 20px var(--color-primary-glow);
   --shadow-glass: inset 0 1px 0 rgba(255, 255, 255, 0.7);
 
@@ -131,15 +131,17 @@ img {
 
 /* Typography Helpers */
 .text-gradient {
-  background: linear-gradient(135deg, #003D17 0%, #006E23 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: var(--color-primary);
+  background: none;
+  -webkit-background-clip: initial;
+  -webkit-text-fill-color: initial;
+  background-clip: initial;
 }
 
 .text-gradient-primary {
-  background: linear-gradient(135deg, #006E23 0%, #1FAF5A 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: var(--color-primary);
+  background: none;
+  -webkit-background-clip: initial;
+  -webkit-text-fill-color: initial;
+  background-clip: initial;
 }

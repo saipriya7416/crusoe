@@ -55,7 +55,7 @@
   width: 48px;
   height: 48px;
   border-radius: 50%;
-  background: linear-gradient(135deg, #006E23, #003D17);
+  background: #84BD00;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -108,7 +108,7 @@
 .article-content blockquote {
   border-left: 3px solid var(--color-primary);
   padding: var(--space-4) var(--space-6);
-  background: rgba(0, 110, 35, 0.05);
+  background: rgba(132, 189, 0, 0.05);
   border-radius: 0 var(--radius-md) var(--radius-md) 0;
   font-style: italic;
   color: var(--color-text-muted);
@@ -128,7 +128,7 @@
 
 .tag-chip {
   padding: 4px 12px;
-  background: rgba(255,255,255,0.05);
+  background: var(--color-bg-secondary);
   border: 1px solid var(--color-border);
   border-radius: var(--radius-full);
   font-size: 0.8125rem;
@@ -195,8 +195,8 @@
 }
 
 .cta-card {
-  background: linear-gradient(135deg, rgba(0, 110, 35, 0.08), rgba(232, 245, 236, 0.5));
-  border: 1px solid rgba(0, 110, 35, 0.2);
+  background: var(--color-bg-secondary);
+  border: 1px solid rgba(132, 189, 0, 0.2);
   text-align: center;
 }
 

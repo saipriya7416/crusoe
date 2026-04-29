@@ -15,8 +15,8 @@
   position: absolute;
   inset: 0;
   background-image:
-    linear-gradient(rgba(0, 110, 35, 0.04) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(0, 110, 35, 0.04) 1px, transparent 1px);
+    linear-gradient(rgba(132, 189, 0, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(132, 189, 0, 0.04) 1px, transparent 1px);
   background-size: 60px 60px;
   mask-image: radial-gradient(ellipse at center, black 0%, transparent 70%);
   -webkit-mask-image: radial-gradient(ellipse at center, black 0%, transparent 70%);
@@ -50,7 +50,7 @@
 .nf-shape {
   position: absolute;
   border-radius: 50%;
-  border: 1px solid rgba(0, 110, 35, 0.15);
+  border: 1px solid rgba(132, 189, 0, 0.15);
   animation: shapeFloat 10s ease-in-out infinite;
 }
 
@@ -58,15 +58,15 @@
   width: 20px; height: 20px;
   top: 15%; left: 10%;
   animation-delay: 0s;
-  background: rgba(0, 110, 35, 0.08);
+  background: rgba(132, 189, 0, 0.08);
 }
 
 .nf-shape-2 {
   width: 12px; height: 12px;
   top: 30%; right: 15%;
   animation-delay: 2s;
-  background: rgba(31, 175, 90, 0.08);
-  border-color: rgba(31, 175, 90, 0.15);
+  background: rgba(132, 189, 0, 0.08);
+  border-color: rgba(132, 189, 0, 0.15);
 }
 
 .nf-shape-3 {
@@ -82,15 +82,15 @@
   width: 16px; height: 16px;
   top: 60%; right: 10%;
   animation-delay: 1.5s;
-  background: rgba(0, 110, 35, 0.06);
+  background: rgba(132, 189, 0, 0.06);
 }
 
 .nf-shape-5 {
   width: 10px; height: 10px;
   bottom: 35%; right: 25%;
   animation-delay: 3s;
-  background: rgba(31, 175, 90, 0.06);
-  border-color: rgba(31, 175, 90, 0.12);
+  background: rgba(132, 189, 0, 0.06);
+  border-color: rgba(132, 189, 0, 0.12);
 }
 
 @keyframes shapeFloat {
@@ -121,7 +121,7 @@
 }
 
 .digit-4-left {
-  background: linear-gradient(180deg, #003D17 0%, #006E23 100%);
+  background: #84BD00;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -135,7 +135,7 @@
 .compass-icon {
   color: var(--color-primary);
   animation: compassSpin 8s linear infinite;
-  filter: drop-shadow(0 0 20px rgba(0, 110, 35, 0.4));
+  filter: drop-shadow(0 0 20px rgba(132, 189, 0, 0.4));
 }
 
 @keyframes compassSpin {
@@ -144,7 +144,7 @@
 }
 
 .digit-4-right {
-  background: linear-gradient(180deg, #003D17 0%, #006E23 100%);
+  background: #84BD00;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -200,7 +200,7 @@
 
 .nf-search-wrapper:focus-within {
   border-color: var(--color-primary);
-  box-shadow: 0 0 0 3px rgba(0, 110, 35, 0.1);
+  box-shadow: 0 0 0 3px rgba(132, 189, 0, 0.1);
 }
 
 .nf-search-icon {
@@ -226,7 +226,7 @@
 .nf-search-btn {
   padding: 8px 20px;
   border-radius: var(--radius-full);
-  background: linear-gradient(135deg, #006E23, #1FAF5A);
+  background: #84BD00;
   color: #ffffff;
   border: none;
   font-family: inherit;
@@ -238,8 +238,8 @@
 }
 
 .nf-search-btn:hover {
-  background: linear-gradient(135deg, #1FAF5A, #2DCF6A);
-  box-shadow: 0 4px 12px rgba(0, 110, 35, 0.3);
+  background: #84BD00;
+  box-shadow: 0 4px 12px rgba(132, 189, 0, 0.3);
   transform: scale(1.03);
 }
 
@@ -287,7 +287,7 @@
 .nf-link:hover {
   border-color: var(--color-primary);
   color: var(--color-primary);
-  background: rgba(0, 110, 35, 0.05);
+  background: rgba(132, 189, 0, 0.05);
 }
 
 /* Decorative orbs */
@@ -301,21 +301,21 @@
 
 .nf-orb-1 {
   width: 450px; height: 450px;
-  background: rgba(0, 110, 35, 0.08);
+  background: rgba(132, 189, 0, 0.08);
   top: -150px; right: -150px;
   animation: orbPulse 6s ease-in-out infinite;
 }
 
 .nf-orb-2 {
   width: 350px; height: 350px;
-  background: rgba(31, 175, 90, 0.06);
+  background: rgba(132, 189, 0, 0.06);
   bottom: -120px; left: -120px;
   animation: orbPulse 6s ease-in-out infinite 2s;
 }
 
 .nf-orb-3 {
   width: 250px; height: 250px;
-  background: rgba(0, 110, 35, 0.05);
+  background: rgba(132, 189, 0, 0.05);
   top: 40%; left: 20%;
   animation: orbPulse 6s ease-in-out infinite 4s;
 }
